@@ -6,7 +6,7 @@ export default function VisitorCounter() {
   useEffect(() => {
     async function recordVisit() {
       try {
-        const res = await fetch("https://3ec3k2uwph.execute-api.eu-west-2.amazonaws.com/Prod/visit", {
+        const res = await fetch("YOUR API CALL", {
           method: "POST"
         });
 
